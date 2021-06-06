@@ -95,7 +95,7 @@ namespace ObjectDetection
                     SolidBrush fontBrush = new SolidBrush(Color.Black);
                     Point atPoint = new Point((int)x, (int)y - (int)size.Height - 1);
 
-                    Pen pen = new Pen(box.BoxColor, 3.2f);
+                    Pen pen = new Pen(box.BoxColor, 13.2f);
                     SolidBrush colorBrush = new SolidBrush(box.BoxColor);
 
                     thumbnailGraphic.FillRectangle(colorBrush, (int)x, (int)(y - size.Height - 1), (int)size.Width, (int)size.Height);
